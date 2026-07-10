@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "ateneo-cs-society",
+    "name": "Ateneo Circle of Computer Enthusiasts for Study and Success (ACCESS)",
+    "school": "School of Engineering",
+    "logo": "/orgs/access-logo.png",
+    "description": "The official organization for all Computer Studies students, fostering tech literacy and innovation.",
+    "moderator": {
+      "name": "Juan Dela Cruz",
+      "image": "/orgs/acss-moderator.png"
+    },
+    "contact": {
+      "email": "acss@addu.edu.ph",
+      "facebook": "https://facebook.com/acss",
+      "instagram": "https://instagram.com/acss"
+    },
+    "gallery": [
+      "/orgs/acss-1.png",
+      "/orgs/acss-2.png",
+      "/orgs/acss-3.png",
+      "/orgs/acss-4.png"
+    ]
+  },
+  {
+    "slug": "green-ateneo",
+    "name": "Green Ateneo",
+    "school": "School of Arts & Sciences",
+    "logo": "/orgs/green-ateneo-logo.png",
+    "description": "Promoting environmental sustainability initiatives across the university.",
+    "moderator": {
+      "name": "Maria Santos",
+      "image": "/orgs/green-ateneo-moderator.png"
+    },
+    "contact": {
+      "email": "greenateneo@addu.edu.ph",
+      "facebook": "https://facebook.com/greenateneo",
+      "instagram": "https://instagram.com/greenateneo"
+    },
+    "gallery": [
+      "/orgs/ga-1.png",
+      "/orgs/ga-2.png",
+      "/orgs/ga-3.png",
+      "/orgs/ga-4.png"
+    ]
+  }
+]
