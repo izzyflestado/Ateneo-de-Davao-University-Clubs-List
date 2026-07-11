@@ -127,4 +127,9 @@
   html {
     @apply font-sans;
   }
+
+  html {
+  overscroll-behavior-y: none;
+}
+
 }

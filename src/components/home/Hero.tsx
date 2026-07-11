@@ -1,19 +1,41 @@
 import Image from "next/image";
+import { Inter } from "next/font/google";
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[400px] md:h-[600px]">
+    <section className="relative w-full h-[800px] md:h-[1000px] overflow-hidden">
       <Image
         src="/orgs/Hero.jpg"
         alt="Ateneo Organizations"
         fill
-        className="object-cover"
         priority
+        className="object-cover"
       />
-      <div className="absolute inset-0 flex items-center justify-center bg-black/60">
-        <h1 className="text-white text-2xl md:text-4xl font-bold text-center px-4">
-          Ateneo Organizations & Clubs
-        </h1>
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/55" />
+
+      {/* Title - stays exactly where it was */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="text-center text-white px-6">
+          <p className="font-sans text-lg md:text-2xl tracking-[0.3em] font-medium text-white/90 mb-5">
+            Ateneo de Davao's
+          </p>
+
+          <h1 className="font-[family:var(--font-cinzel)] text-6xl sm:text-7xl md:text-9xl lg:text-[8rem] leading-[0.95] drop-shadow-2xl">
+  CLUBS AND ORGS
+</h1>
+        </div>
+      </div>
+
+      {/* Subtext - positioned independently, 200px below center */}
+      <div className="absolute left-1/2 top-[calc(50%+275px)] -translate-x-1/2 w-full px-6">
+        <p className={`${inter.className} text-white/90 text-sm font-bold md:text-base text-center max-w-2xl mx-auto leading-relaxed`}>
+          This is an unofficial website containing all the basic information of all
+          of Ateneo de Davao's Clubs and Organizations. This website is designed for
+          students to help them navigate blablabla, not official blablabla.
+        </p>
       </div>
     </section>
   );
