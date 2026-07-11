@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/55" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/50 to-black/100" />
 
       {/* Title - stays exactly where it was */}
       <div className="absolute inset-0 flex items-center justify-center">

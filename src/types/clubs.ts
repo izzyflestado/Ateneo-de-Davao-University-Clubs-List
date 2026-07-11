@@ -1,8 +1,7 @@
 export interface Organization {
   slug: string;
   name: string;
-  abbreviation: string;
-  school: string;
+  category: string;
   logo: string;
   description: string;
   moderator: {

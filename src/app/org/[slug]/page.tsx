@@ -30,7 +30,7 @@ export default async function OrgPage({
             className="rounded-full object-cover"
           />
           <h1 className="text-2xl font-bold">
-            {club.name} ({club.abbreviation})
+            {club.name}
           </h1>
         </div>
 

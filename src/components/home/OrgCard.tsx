@@ -15,7 +15,7 @@ export default function OrgCard({ club }: { club: Club }) {
         height={200}
         className="rounded-full object-cover mb-4"
       />
-      <h3 className="font-semibold text-base md:text-lg">{club.name}</h3>
+      <h3 className=" text-base md:text-lg">{club.name}</h3>
     </Link>
   );
 }
