@@ -50,8 +50,8 @@ export default function Footer() {
 
         {/* Right */}
         <p className="text-right md:text-right text-xs text-gray-400 justify-self-center md:justify-self-end max-w-xs">
-            This is an unofficial, student-made website<br/> and is not affiliated with
-            Ateneo de Davao University.
+            This is an unofficial, student-developed website <br/>created for informational and portfolio purposes. <br/>
+            It is not affiliated with, endorsed by, or officially <br/> maintained by Ateneo de Davao University.
         </p>
         </div>
     </footer>
