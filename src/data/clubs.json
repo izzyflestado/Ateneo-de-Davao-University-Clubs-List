@@ -85,5 +85,26 @@
       "/orgs/ga-3.png",
       "/orgs/ga-4.png"
     ]
+  },
+   { "slug": "yes",
+    "name": "Young Entrepreneurs Society",
+    "category": "Business and Governance",
+    "logo": "/orgs/yes.png",
+    "description": "Promoting environmental sustainability initiatives across the university.",
+    "moderator": {
+      "name": "Maria Santos",
+      "image": "/orgs/green-ateneo-moderator.png"
+    },
+    "contact": {
+      "email": "greenateneo@addu.edu.ph",
+      "facebook": "https://facebook.com/greenateneo",
+      "instagram": "https://instagram.com/greenateneo"
+    },
+    "gallery": [
+      "/orgs/ga-1.png",
+      "/orgs/ga-2.png",
+      "/orgs/ga-3.png",
+      "/orgs/ga-4.png"
+    ]
   }
 ]

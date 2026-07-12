@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Club } from "@/types/club";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function OrgCard({ club }: { club: Club }) {
   return (
@@ -15,7 +18,7 @@ export default function OrgCard({ club }: { club: Club }) {
         height={200}
         className="rounded-full object-cover mb-4"
       />
-      <h3 className=" text-base md:text-lg">{club.name}</h3>
+      <h3 className={`${inter.className} font-semibold text-base`}>{club.name}</h3>
     </Link>
   );
 }
