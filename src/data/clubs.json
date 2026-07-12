@@ -2,7 +2,7 @@
   {
     "slug": "ateneo-cs-society",
     "name": "Ateneo Circle of Computer Enthusiasts for Study and Success (ACCESS)",
-    "category": "School of Engineering",
+    "category": "Science and Technology",
     "logo": "/orgs/access-logo.png",
     "description": "The official organization for all Computer Studies students, fostering tech literacy and innovation.",
     "moderator": {
@@ -65,27 +65,6 @@
       "/orgs/ga-4.png"
     ]
   },
-  { "slug": "cateneo",
-    "name": "CATeneo",
-    "category": "Socio-Civic",
-    "logo": "/orgs/cateneo.png",
-    "description": "Promoting environmental sustainability initiatives across the university.",
-    "moderator": {
-      "name": "Maria Santos",
-      "image": "/orgs/green-ateneo-moderator.png"
-    },
-    "contact": {
-      "email": "greenateneo@addu.edu.ph",
-      "facebook": "https://facebook.com/greenateneo",
-      "instagram": "https://instagram.com/greenateneo"
-    },
-    "gallery": [
-      "/orgs/ga-1.png",
-      "/orgs/ga-2.png",
-      "/orgs/ga-3.png",
-      "/orgs/ga-4.png"
-    ]
-  },
    { "slug": "yes",
     "name": "Young Entrepreneurs Society",
     "category": "Business and Governance",
@@ -106,5 +85,957 @@
       "/orgs/ga-3.png",
       "/orgs/ga-4.png"
     ]
-  }
+  },
+  {
+    "slug": "afcc",
+    "name": "Ateneo Filipino-Chinese Community",
+    "category": "Culture and Arts",
+    "logo": "/orgs/afcc.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Jenner Y. Chan, DBM",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "ajkc",
+    "name": "Ateneo Japanese and Kendo Community",
+    "category": "Culture and Arts",
+    "logo": "/orgs/ajkc.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Jose Marie E. Ocdenaria",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "1sa",
+    "name": "Interdisciplinary Studies Association",
+    "category": "Culture and Arts",
+    "logo": "/orgs/1sa.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Stella Marie Arcenas",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "salam-tams",
+    "name": "SALAM: The Ateneo Muslim Society",
+    "category": "Culture and Arts",
+    "logo": "/orgs/salam.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Jade K. Halilio",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "sinikom",
+    "name": "Samahan ng mga Mag-aaral ng Sining at Komunikasyon",
+    "category": "Culture and Arts",
+    "logo": "/orgs/sinikom.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Christine Faith M. Avila",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "tanglaw",
+    "name": "Tanglaw - The Ateneo Folk Dance Society",
+    "category": "Culture and Arts",
+    "logo": "/orgs/tanglaw.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Solamite T. Dizon",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "acil",
+    "name": "Ateneo Catechetical Instructions League",
+    "category": "Faith Formation",
+    "logo": "/orgs/acil.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Peterson Garino",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "clm",
+    "name": "Campus Liturgical Ministries",
+    "category": "Faith Formation",
+    "logo": "/orgs/clm.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Ma. Catherine M. Rebote",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "cya",
+    "name": "Christ's Youth in Action",
+    "category": "Faith Formation",
+    "logo": "/orgs/cya.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Lorraine Patricia S. Casia",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "sd7",
+    "name": "Subdominant 7",
+    "category": "Faith Formation",
+    "logo": "/orgs/sd7.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Mark John Montrago",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "agrees",
+    "name": "Ateneo Green-Agripreneurs for Renewable and Eco-friendly Enterprises Society",
+    "category": "Business and Governance",
+    "logo": "/orgs/agrees.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Cherrie Rose Sagario, MBA",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "amc",
+    "name": "Ateneo Marketing Club",
+    "category": "Business and Governance",
+    "logo": "/orgs/amc.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Roneliza Emelyn J. Ladroma",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "asms",
+    "name": "Ateneo Society of Management Students",
+    "category": "Business and Governance",
+    "logo": "/orgs/asms.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Jovelyn A. Castro",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jfinex",
+    "name": "Junior Finance Executives",
+    "category": "Business and Governance",
+    "logo": "/orgs/jfinex.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Gene Leo A. Jesuro",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpmap",
+    "name": "Junior People Management Association of the Philippines",
+    "category": "Business and Governance",
+    "logo": "/orgs/jpmap.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Rhea R. Mapanao, PhD",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpama",
+    "name": "Junior Philippine Association of Management Accountants",
+    "category": "Business and Governance",
+    "logo": "/orgs/jpama.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Rechell Kaye Mosqueda-Binoya",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpia",
+    "name": "Junior Philippine Institute of Accountants - AdDU Local Chapter",
+    "category": "Business and Governance",
+    "logo": "/orgs/jpia.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Jocelyn A. Gumpad-Joson, CPA, DBA",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpspm",
+    "name": "Junior Philippine Society for Public Management - AdDU Chapter",
+    "category": "Business and Governance",
+    "logo": "/orgs/jpspm.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Jenny Fe. R. Pio",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "asiem",
+    "name": "Ateneo Society of Industrial Engineering Majors",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/asiem.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Glenda B. Minguito",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "uapsa",
+    "name": "United Architects of the Philippines Student Auxiliary - Doric",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/uapsa.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Ar. John Immanuel R. Palma",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "fusee",
+    "name": "Federation of United Students of Electrical Engineering",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/fusee.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Edu Daryl C. Maceren",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "gears",
+    "name": "Global Engineering Ateneo Robotics Society",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/gears.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Ryutaro Yamamoto",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpiche",
+    "name": "Junior Philippine Institute of Chemical Engineers",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/jpiche.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Sabrina P. Zehender",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jpice",
+    "name": "Junior Philippine Institute of Civil Engineers",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/jpice.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Philip Jun Celerinos",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "lippad",
+    "name": "Liga ng mga Inhinyerong Panghimpapawid at Pangkalawakan ng Ateneo de Davao",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/lippad.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Rogel Mari Sese",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "makina",
+    "name": "Mekanikal na Asosasyon ng Kabataang Inhinyerong Atenista",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/makina.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Emilio Joaquin Flores",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "processor",
+    "name": "Prominent Computer Engineering Students' Organization",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/processor.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Dexielito B. Badilles",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "selecomes",
+    "name": "Society of Electronics Engineering Students",
+    "category": "Engineering and Architecture",
+    "logo": "/orgs/selecomes.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Engr. Marloue O. Pidor",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "addacs",
+    "name": "Ateneo de Davao Association of Chemistry Students",
+    "category": "Science and Technology",
+    "logo": "/orgs/addacs.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Ed Ivan Bardoquillo",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "addams",
+    "name": "Ateneo de Davao Mathematics Society",
+    "category": "Science and Technology",
+    "logo": "/orgs/addams.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Vergel T. Bilar, PhD",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "envico",
+    "name": "Environmental Science Community",
+    "category": "Science and Technology",
+    "logo": "/orgs/envico.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Dr. Doris B. Montecastro",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "pnsa",
+    "name": "Philippine Nursing Students' Association",
+    "category": "Science and Technology",
+    "logo": "/orgs/pnsa.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Marie Josephine J. Serra",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "tabs",
+    "name": "The Ateneo Biological Society",
+    "category": "Science and Technology",
+    "logo": "/orgs/tabs.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Carolyn T. Magculia, MSC, R.Agr",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "aisso",
+    "name": "Ateneo International Studies Students Organization",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/aisso.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Monica A. Villa-Abrille",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "aissa",
+    "name": "Ateneo Islamic Studies Students Association",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/aissa.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Sultan U. Ubpon",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "ecosoc",
+    "name": "Ateneo Economics Society",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/ecosoc.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Mildred Estanda",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "feat",
+    "name": "Future Educators of Ateneo",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/feat.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Agustin G. Ismael Jr.",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "jswap",
+    "name": "Junior Social Worker's Association of the Philippines",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/jswap.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Kristi Lou S. Taming",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "masa",
+    "name": "Mindanawon Anthropological Society of the Ateneo",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/masa.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Albert Santos, MA",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "samasikofil",
+    "name": "Samahang Mag-aaral ng Sikolohiyang Filipino",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/samasikofil.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Analyn O. Leysa",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+    "slug": "samapula",
+    "name": "Samahan ng mga Mag-aaral ng Agham Pampulitika ng Ateneo",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/samapula.png",
+    "description": "Placeholder description.",
+    "moderator": {
+      "name": "Atty. Maria Janua Cunanan",
+      "image": "/orgs/placeholder.png"
+    },
+    "contact": {
+      "email": "placeholder@addu.edu.ph",
+      "facebook": "#",
+      "instagram": "#"
+    },
+    "gallery": []
+  },
+  {
+  "slug": "bahaghari",
+  "name": "Bahaghari",
+  "category": "Socio-Civic",
+  "logo": "/orgs/bahaghari.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Ma. Vanessa Amor E. Sobrejuanite-Deloso",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "cateneo",
+  "name": "CATeneo",
+  "category": "Socio-Civic",
+  "logo": "/orgs/cateneo.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Fr. Carlos G. Cenzon, SJ",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "crcy",
+  "name": "College Red Cross Youth (CRCY)",
+  "category": "Socio-Civic",
+  "logo": "/orgs/crcy.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Roy Cresencio R. Linao Jr., MN RN",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "power-addu",
+  "name": "POWER AdDU (Protection of Women's Equality and Rights)",
+  "category": "Socio-Civic",
+  "logo": "/orgs/power.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Mary Donna Grace J. Cuenca",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "aces",
+  "name": "Ateneo Cavalry Esports Society (ACES)",
+  "category": "Special Clubs",
+  "logo": "/orgs/aces.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Christian L. Bandoquillo",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "adc",
+  "name": "Ateneo Dance Crew (ADC)",
+  "category": "Special Clubs",
+  "logo": "/orgs/adc.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Jesus A. Montajes",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "adduc",
+  "name": "Ateneo de Davao University Chorale (ADDUC)",
+  "category": "Special Clubs",
+  "logo": "/orgs/adduc.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Atty. Ira Calatrava-Valenzuela",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "adv",
+  "name": "Ateneo Debate Varsity (ADV)",
+  "category": "Special Clubs",
+  "logo": "/orgs/adv.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Akeem Jade Fabila",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "arc",
+  "name": "Ateneo Repertory Company (ARC)",
+  "category": "Special Clubs",
+  "logo": "/orgs/arc.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Jesus A. Montajes",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "aspac",
+  "name": "Ateneo Sidlak Performing Arts Collective (ASPAC)",
+  "category": "Special Clubs",
+  "logo": "/orgs/aspac.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Jesus A. Montajes",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "assf",
+  "name": "Ateneo Student Security Force (ASSF)",
+  "category": "Special Clubs",
+  "logo": "/orgs/assf.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Engr. Evtri E. Tabanguil",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "csass",
+  "name": "Council of Organizations of the Ateneo - Davao",
+  "category": "Student Government",
+  "logo": "/orgs/csass.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Benz Edd Garay, RPM, CSASS",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "comelec",
+  "name": "AdDU COMELEC",
+  "category": "Student Government",
+  "logo": "/orgs/comelec.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Atty. Niceforo V. Solis, Jr.",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "kalasag",
+  "name": "KALASAG",
+  "category": "Official Publications",
+  "logo": "/orgs/kalasag.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Not specified",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+},
+{
+  "slug": "atenews",
+  "name": "Atenews",
+  "category": "Official Publications",
+  "logo": "/orgs/atenews.png",
+  "description": "Placeholder description.",
+  "moderator": {
+    "name": "Not specified",
+    "image": "/orgs/placeholder.png"
+  },
+  "contact": {
+    "email": "placeholder@addu.edu.ph",
+    "facebook": "#",
+    "instagram": "#"
+  },
+  "gallery": []
+}
 ]

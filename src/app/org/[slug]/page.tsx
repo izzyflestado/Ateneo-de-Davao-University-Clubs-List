@@ -4,8 +4,11 @@ import clubs from "@/data/clubs.json";
 import { Club } from "@/types/club";
 import { Mail } from "lucide-react";
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import { Inter } from "next/font/google";
 
 const typedClubs = clubs as Club[];
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default async function OrgPage({
   params,
@@ -18,76 +21,102 @@ export default async function OrgPage({
   if (!club) notFound();
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
+    <div className="max-w-7xl mx-auto px-6 pt-14 pb-10">
       {/* Top section */}
       <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-10">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-8 min-w-0 flex-1">
           <Image
             src={club.logo}
             alt={club.name}
-            width={100}
-            height={100}
-            className="rounded-full object-cover"
+            width={180}
+            height={180}
+            className="rounded-full object-cover shadow-lg/30"
           />
-          <h1 className="text-2xl font-bold">
+          <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
             {club.name}
           </h1>
         </div>
 
-        <div className="border rounded-xl p-4 w-full md:w-64">
-          <p className="flex items-center gap-2 text-sm mb-2">
+        <div
+  className={`${inter.className} w-full md:basis-96 md:flex-none rounded-2xl border border-gray-200 bg-white p-6`}
+>
+  <p className="text-lg font-semibold text-center mb-4">Contact Information</p>
+          <p className="flex items-center gap-2 text-sm mb-4">
             <Mail size={16} /> {club.contact.email}
           </p>
-          <div className="flex gap-3">
-            {club.contact.facebook && (
-                <a href={club.contact.facebook} target="_blank" rel="noopener noreferrer">
-                <FacebookIcon />
-                </a>
-            )}
-            {club.contact.instagram && (
-                <a href={club.contact.instagram} target="_blank" rel="noopener noreferrer">
-                <InstagramIcon />
-                </a>
-            )}
-            {club.contact.linkedin && (
-                <a href={club.contact.linkedin} target="_blank" rel="noopener noreferrer">
-                <LinkedinIcon />
-                </a>
-            )}
-            </div>
+          <div className="flex flex-col gap-2 text-sm">
+  {club.contact.facebook && (
+    <a
+      href={club.contact.facebook}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-blue-600 transition-colors"
+    >
+      <FacebookIcon />
+      <span>Facebook</span>
+    </a>
+  )}
+
+  {club.contact.instagram && (
+    <a
+      href={club.contact.instagram}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-pink-600 transition-colors"
+    >
+      <InstagramIcon />
+      <span>Instagram</span>
+    </a>
+  )}
+
+  {club.contact.linkedin && (
+    <a
+      href={club.contact.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:text-blue-700 transition-colors"
+    >
+      <LinkedinIcon />
+      <span>LinkedIn</span>
+    </a>
+  )}
+</div>
         </div>
       </div>
 
       {/* Description */}
-      <p className="text-gray-700 mb-8 leading-relaxed">{club.description}</p>
+      <p className="text-gray-700 mb-8 mt-24 leading-relaxed text-center">{club.description}</p>
 
-      {/* Moderator */}
-      <div className="flex items-center gap-4 mb-10">
-        <Image
-          src={club.moderator.image}
-          alt={club.moderator.name}
-          width={60}
-          height={60}
-          className="rounded-full object-cover"
-        />
-        <div>
-          <p className="text-sm text-gray-500">Moderator</p>
-          <p className="font-medium">{club.moderator.name}</p>
-        </div>
-      </div>
+ 
 
       {/* Gallery */}
-      <div className="grid grid-cols-2 gap-4 max-w-md">
+      <div className="grid grid-cols-2 pt-16 gap-4 w-full">
         {club.gallery.map((img, i) => (
           <Image
             key={i}
             src={img}
             alt={`${club.name} gallery ${i + 1}`}
-            width={300}
-            height={300}
-            className="rounded-lg object-cover w-full h-full"
+            width={600}
+            height={600}
+            className="rounded-2xl object-cover w-full h-full aspect-square"
           />
         ))}
+      </div>
+
+           {/* Moderator */}
+     {/* Moderator */}
+      <div className="flex flex-col items-center gap-3 mb-10">
+        <Image
+          src={club.moderator.image}
+          alt={club.moderator.name}
+          width={160}
+          height={160}
+          className="rounded-full object-cover"
+        />
+       <div className="text-center">
+          <p className="text-base text-gray-500">Moderator</p>
+          <p className="font-medium text-4xl">{club.moderator.name}</p>
+        </div>
       </div>
     </div>
   );

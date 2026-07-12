@@ -9,7 +9,7 @@ import OrgGrid from "./OrgGrid";
 import OrgGridByCategory from "./OrgGridByCategory";
 
 export default function OrgSection() {
-  const [sortMode, setSortMode] = useState<SortMode>("alphabetical");
+  const [sortMode, setSortMode] = useState<SortMode>("category");
 
   const typedClubs = clubs as Club[];
 
