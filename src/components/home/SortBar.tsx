@@ -2,7 +2,7 @@
 
 import { ChevronDown } from "lucide-react";
 import { Inter } from "next/font/google";
-import { SortMode } from "./OrgSection";
+import { SortMode } from "@/types/sort";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -5,25 +5,27 @@ import clubs from "@/data/clubs.json";
 import { Club } from "@/types/club";
 import SortBar from "./SortBar";
 import OrgGrid from "./OrgGrid";
+import OrgGridByCategory from "./OrgGridByCategory";
 
-export type SortMode = "alphabetical" | "category";
+import { SortMode } from "@/types/sort";
 
 export default function OrgSection() {
   const [sortMode, setSortMode] = useState<SortMode>("alphabetical");
 
   const typedClubs = clubs as Club[];
 
-  const sortedClubs = [...typedClubs].sort((a, b) => {
-    if (sortMode === "alphabetical") {
-      return a.name.localeCompare(b.name);
-    }
-    return a.category.localeCompare(b.category);
-  });
+  const alphabeticalClubs = [...typedClubs].sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
   return (
     <div>
       <SortBar sortMode={sortMode} onSortChange={setSortMode} />
-      <OrgGrid clubs={sortedClubs} />
+      {sortMode === "alphabetical" ? (
+        <OrgGrid clubs={alphabeticalClubs} />
+      ) : (
+        <OrgGridByCategory clubs={typedClubs} />
+      )}
     </div>
   );
 }
