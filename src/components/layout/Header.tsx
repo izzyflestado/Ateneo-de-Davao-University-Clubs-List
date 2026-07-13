@@ -91,6 +91,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3">
   <Image
     src="/orgs/1white.png"
+    alt="Ateneo Logo"
     width={compact ? 36 : 72}
     height={compact ? 36 : 72}
     className="transition-all duration-500"
