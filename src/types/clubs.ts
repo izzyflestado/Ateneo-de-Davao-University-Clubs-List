@@ -1,4 +1,4 @@
-export interface Organization {
+export interface Club {
   slug: string;
   name: string;
   category: string;
