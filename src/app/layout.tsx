@@ -4,6 +4,7 @@ import { Cinzel, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import type { Metadata, Viewport } from "next";   // change: add Viewport
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ateneo Davao Orgs & Clubs",
   description: "Unofficial directory of Ateneo de Davao University organizations",
+};
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({

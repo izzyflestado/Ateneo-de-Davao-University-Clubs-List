@@ -88,7 +88,7 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 gap-6">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="flex items-center gap-3 min-w-0">
   <Image
     src="/images/1white.png"
     alt="Ateneo Logo"
@@ -97,15 +97,15 @@ export default function Header() {
     className="transition-all duration-500"
   />
   <span
-    className={`${cinzel.className} text-white transition-all duration-500 ${
-      compact ? "text-lg" : "text-4xl"
+    className={`${cinzel.className} text-white transition-all duration-500 truncate ${
+      compact ? "text-xs sm:text-base md:text-lg" : "text-xl sm:text-2xl md:text-4xl"
     }`}
   >
     Ateneo de Davao University
   </span>
 </Link>
 
-        <div ref={wrapperRef} className="relative w-full max-w-xs">
+        <div ref={wrapperRef} className="relative w-full max-w-[140px] sm:max-w-xs min-w-0">
           <div className="flex items-center justify-between gap-2 border-b border-white px-2 py-1">
             <input
               type="text"

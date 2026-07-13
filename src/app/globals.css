@@ -123,6 +123,8 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: clip;
+    max-width: 100vw;
   }
   html {
     @apply font-sans;
@@ -130,6 +132,7 @@
 
   html {
   overscroll-behavior-y: none;
+  overflow-x: clip;
 }
 
 }
