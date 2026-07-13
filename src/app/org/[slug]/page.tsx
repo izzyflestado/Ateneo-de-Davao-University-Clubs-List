@@ -85,33 +85,34 @@ export default async function OrgPage({
       </div>
 
       {/* Description */}
-      <p className="text-gray-700 mb-8 mt-24 leading-relaxed text-center">{club.description}</p>
+      <p className="text-gray-700 mb-8 mt-24 leading-relaxed text-center px-34 md:px-60">{club.description}</p>
 
  
 
-      {/* Gallery */}
-      <div className="grid grid-cols-2 pt-16 gap-4 w-full">
-        {club.gallery.map((img, i) => (
-          <Image
-            key={i}
-            src={img}
-            alt={`${club.name} gallery ${i + 1}`}
-            width={600}
-            height={600}
-            className="rounded-2xl object-cover w-full h-full aspect-square"
-          />
-        ))}
-      </div>
+    {/* Gallery */}
+<div className="grid grid-cols-2 pt-16 gap-4 w-full mb-24">
+  {club.gallery.map((img, i) => (
+    <div key={i} className="relative rounded-2xl overflow-hidden aspect-video">
+      <Image
+        src={img}
+        alt={`${club.name} gallery ${i + 1}`}
+        width={600}
+        height={400}
+        className="object-cover w-full h-full"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#081F71]/60 to-transparent pointer-events-none" />
+    </div>
+  ))}
+</div>
 
-           {/* Moderator */}
      {/* Moderator */}
       <div className="flex flex-col items-center gap-3 mb-10">
         <Image
           src={club.moderator.image}
           alt={club.moderator.name}
-          width={160}
-          height={160}
-          className="rounded-full object-cover"
+          width={200}
+          height={200}
+          className="rounded-full object-cover shadow-lg/30"
         />
        <div className="text-center">
           <p className="text-base text-gray-500">Moderator</p>

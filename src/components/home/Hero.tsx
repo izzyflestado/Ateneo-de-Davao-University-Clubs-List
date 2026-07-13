@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[800px] md:h-[1000px] overflow-hidden">
       <Image
-        src="/orgs/Hero.jpg"
+        src="/images/Hero.jpg"
         alt="Ateneo Organizations"
         fill
         priority
