@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import clubs from "@/data/clubs.json";
-import { Club } from "@/types/club";
+import { Club } from "@/types/clubs";
 import { SortMode } from "@/types/sort";
 import SortBar from "./SortBar";
 import OrgGrid from "./OrgGrid";

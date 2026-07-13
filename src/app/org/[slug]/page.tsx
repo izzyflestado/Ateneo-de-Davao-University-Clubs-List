@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import clubs from "@/data/clubs.json";
-import { Club } from "@/types/club";
+import { Club } from "@/types/clubs";
 import { Mail } from "lucide-react";
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
 import { Inter } from "next/font/google";

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Club } from "@/types/club";
+import { Club } from "@/types/clubs";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });

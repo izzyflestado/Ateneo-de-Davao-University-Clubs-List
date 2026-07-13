@@ -1,4 +1,4 @@
-import { Club } from "@/types/club";
+import { Club } from "@/types/clubs";
 import OrgCard from "./OrgCard";
 
 export default function OrgGridByCategory({ clubs }: { clubs: Club[] }) {

@@ -9,7 +9,7 @@ import { useEffect, useRef, useState } from "react";
 const cinzel = Cinzel({ subsets: ["latin"] });
 
 import clubs from "@/data/clubs.json";
-import { Club } from "@/types/club";
+import { Club } from "@/types/clubs";
 import Link from "next/link";
 
 const typedClubs = clubs as Club[];
