@@ -26,7 +26,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ateneo Organizations & Clubs",
+  title: "Ateneo Davao Orgs & Clubs",
   description: "Unofficial directory of Ateneo de Davao University organizations",
 };
 
