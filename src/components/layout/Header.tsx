@@ -90,7 +90,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 gap-6">
         <Link href="/" className="flex items-center gap-3">
   <Image
-    src="/orgs/1white.png"
+    src="/images/1white.png"
     alt="Ateneo Logo"
     width={compact ? 36 : 72}
     height={compact ? 36 : 72}
