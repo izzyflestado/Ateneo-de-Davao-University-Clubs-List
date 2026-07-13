@@ -18,7 +18,10 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  
 
   const pathname = usePathname();
   const isOrgPage = pathname?.startsWith("/org/");
@@ -67,17 +70,19 @@ export default function Header() {
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
-        setShowDropdown(false);
-      }
-    };
+  if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+    setShowDropdown(false);
+    setMobileSearchOpen(false);
+  }
+};
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const filtered = typedClubs.filter((club) =>
-  club.name.toLowerCase().includes(query.toLowerCase())
-);
+  const filtered = typedClubs
+  .filter((club) => club.name.toLowerCase().includes(query.toLowerCase()))
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .slice(0, 3);
 
   const compact = isOrgPage || isScrolled;
 
@@ -87,7 +92,7 @@ export default function Header() {
         compact ? "py-3 shadow-md" : "py-10"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 gap-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 gap-6 relative">
         <Link href="/" className="flex items-center gap-3 min-w-0">
   <Image
     src="/images/1white.png"
@@ -97,49 +102,116 @@ export default function Header() {
     className="transition-all duration-500"
   />
   <span
-    className={`${cinzel.className} text-white transition-all duration-500 truncate ${
-      compact ? "text-xs sm:text-base md:text-lg" : "text-xl sm:text-2xl md:text-4xl"
+        className={`${cinzel.className} text-white transition-all duration-500 whitespace-nowrap ${
+      compact ? "text-[10px] sm:text-base md:text-lg" : "text-base sm:text-2xl md:text-4xl"
     }`}
   >
     Ateneo de Davao University
   </span>
 </Link>
 
-        <div ref={wrapperRef} className="relative w-full max-w-[140px] sm:max-w-xs min-w-0">
-          <div className="flex items-center justify-between gap-2 border-b border-white px-2 py-1">
-            <input
-              type="text"
-              className="w-full outline-none text-sm bg-transparent text-white"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => setShowDropdown(true)}
-            />
-            <Search size={18} className="text-white" />
-          </div>
-
-          {showDropdown && query && (
-            <ul className="absolute top-full left-0 w-full bg-white border rounded-md shadow-md mt-1 z-50">
-              {filtered.length > 0 ? (
-  filtered.map((club) => (
-    <li key={club.slug}>
-      <Link
-        href={`/org/${club.slug}`}
-        onClick={() => {
-          setQuery("");
-          setShowDropdown(false);
-        }}
-        className="block px-3 py-2 text-sm hover:bg-gray-100 cursor-pointer text-black"
+{/* Mobile: expanded overlay covering full row (logo + name) */}
+{mobileSearchOpen && (
+  <div className="sm:hidden absolute inset-0 bg-[#081F71] flex items-center px-6 z-50">
+    <div className="relative flex items-center gap-2 w-full max-w-[240px] mx-auto border-b border-transparent focus-within:border-white transition-colors">
+      <input
+        ref={inputRef}
+        autoFocus
+        type="text"
+        className="w-full outline-none text-sm bg-transparent text-white"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        onFocus={() => setShowDropdown(true)}
+      />
+      <button
+        type="button"
+        onClick={() => { setShowDropdown(true); inputRef.current?.focus(); }}
+        className="flex items-center justify-center p-0 m-0 border-0 bg-transparent leading-none shrink-0 cursor-pointer"
       >
-        {club.name}
-      </Link>
-    </li>
-  ))
-) : (
-  <li className="px-3 py-2 text-sm text-gray-400">No results</li>
-)}
-            </ul>
+        <Search size={18} className="text-white" />
+      </button>
+
+      {showDropdown && query && (
+        <ul className="absolute top-full left-0 w-full bg-white border rounded-md shadow-md mt-1 z-50">
+          {filtered.length > 0 ? (
+            filtered.map((club) => (
+              <li key={club.slug} className="border-b border-gray-200 last:border-b-0">
+                <Link
+                  href={`/org/${club.slug}`}
+                  onClick={() => {
+                    setQuery("");
+                    setShowDropdown(false);
+                    setMobileSearchOpen(false);
+                  }}
+                  className="block px-3 py-2 text-sm hover:bg-gray-100 cursor-pointer text-black"
+                >
+                  {club.name}
+                </Link>
+              </li>
+            ))
+          ) : (
+            <li className="px-3 py-2 text-sm text-gray-400">No results</li>
           )}
-        </div>
+        </ul>
+      )}
+    </div>
+  </div>
+)}
+
+        <div ref={wrapperRef} className="relative flex items-center justify-end w-auto sm:w-full sm:max-w-xs shrink-0">
+  {/* Desktop: input always visible, no underline */}
+  <div className="hidden sm:flex items-center gap-2 px-2 py-1 w-full border-b border-transparent focus-within:border-white transition-colors">
+    <input
+      ref={inputRef}
+      type="text"
+      className="w-full outline-none text-sm bg-transparent text-white"
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      onFocus={() => setShowDropdown(true)}
+    />
+    <button
+      type="button"
+      onClick={() => { setShowDropdown(true); inputRef.current?.focus(); }}
+      className="flex items-center justify-center p-0 m-0 border-0 bg-transparent leading-none shrink-0 cursor-pointer"
+    >
+      <Search size={18} className="text-white" />
+    </button>
+  </div>
+
+  {/* Mobile: icon only */}
+  <button
+    type="button"
+    onClick={() => setMobileSearchOpen(true)}
+    className="sm:hidden flex items-center justify-center p-0 m-0 border-0 bg-transparent leading-none shrink-0 cursor-pointer"
+  >
+    <Search size={18} className="text-white" />
+  </button>
+
+
+  {showDropdown && query && (
+    <ul className="hidden sm:block absolute top-full right-0 w-[240px] sm:w-full sm:max-w-xs bg-white border rounded-md shadow-md mt-1 z-50">
+  {filtered.length > 0 ? (
+    filtered.map((club) => (
+      <li key={club.slug} className="border-b border-gray-200 last:border-b-0">
+        <Link
+          href={`/org/${club.slug}`}
+          onClick={() => {
+            setQuery("");
+            setShowDropdown(false);
+            setMobileSearchOpen(false);
+          }}
+          className="block px-3 py-2 text-sm hover:bg-gray-100 cursor-pointer text-black"
+        >
+          {club.name}
+        </Link>
+      </li>
+    ))
+  ) : (
+    <li className="px-3 py-2 text-sm text-gray-400">No results</li>
+  )}
+</ul>
+  )}
+</div>
       </div>
 
       {!isOrgPage && !isScrolled && (

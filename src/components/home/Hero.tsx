@@ -35,7 +35,7 @@ export default function Hero() {
           This is an unofficial website containing all the basic information of all
           of Ateneo de Davao's Clubs and Organizations. This website is designed for
           students to help navigate and find all existing clubs inside Ateneo de Davao University. 
-          All university, club and organization names and logos remain the property of their respective owners.
+          All university, club, and organization names and logos remain the property of their respective owners.
         </p>
       </div>
     </section>
