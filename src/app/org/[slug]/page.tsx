@@ -85,7 +85,7 @@ export default async function OrgPage({
       </div>
 
       {/* Description */}
-      <p className="text-gray-700 mb-8 mt-24 leading-relaxed text-center px-34 md:px-60">{club.description}</p>
+      <p className="text-gray-700 mb-8 mt-24 leading-relaxed text-xl text-center px-34 md:px-60">{club.description}</p>
 
  
 
