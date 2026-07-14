@@ -28,8 +28,8 @@
     "logo": "/orgs/student-gov/samahan/samahan.png",
     "description": "The Samahan ng Mga Mag-Aaral ng Pamantasang Ateneo de Davao, or SAMAHAN, is the lone autonomous Student Government of the College unit of Ateneo de Davao University. SAMAHAN at the very top of the student organization food chain.",
     "moderator": {
-      "name": "Dr. Lunar T. Fayloga",
-      "image": "/orgs/student-gov/samahan/samahan-mod.png"
+      "name": "",
+      "image": ""
     },
     "contact": {
       "email": "samahan@addu.edu.ph",
@@ -1239,7 +1239,7 @@
     "description": "The Council of Organizations of the Ateneo - Davao is the umbrella council of all recognized clubs and organizations of the Ateneo de Davao University. It brings together and supports accredited organizations within the university.",
     "moderator": {
       "name": "Benz Edd Garay, RPM, CSASS",
-      "image": "/orgs/student-gov/csass/csass-mod.png"
+      "image": "/orgs/student-gov/council/council-mod.png"
     },
     "contact": {
       "email": "coad@addu.edu.ph",
