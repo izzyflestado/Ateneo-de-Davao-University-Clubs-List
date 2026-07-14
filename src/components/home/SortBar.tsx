@@ -25,7 +25,7 @@ export default function SortBar({
       <span className="text-sm font-medium tracking-[0.2em] text-gray-800">
         Sort By:</span>
 
-      <div className="flex gap-3">
+      <div className="flex flex-wrap justify-center gap-2">
         <button
           onClick={() => onSortChange("alphabetical")}
           className={`px-4 py-2 rounded-lg border text-sm hover:bg-blue-200 ${
@@ -43,10 +43,10 @@ export default function SortBar({
           Category
         </button>
 
-        <div className="relative w-full sm:w-auto">
+        <div className="relative">
           <button
             onClick={() => setShowCategoryMenu((prev) => !prev)}
-            className="flex items-center justify-between sm:justify-start gap-1 px-4 py-2 rounded-lg border text-sm hover:bg-blue-200 w-full sm:w-auto whitespace-nowrap"
+            className="flex items-center gap-1 px-4 py-2 rounded-lg border text-sm hover:bg-blue-200 whitespace-nowrap"
           >
             Jump to category
             <ChevronDown
@@ -55,7 +55,7 @@ export default function SortBar({
             />
           </button>
 
-          <ul className={`absolute top-full left-0 mt-1 w-full sm:w-56 bg-white border rounded-lg shadow-md transition-all duration-200 z-50 max-h-[180px] overflow-y-auto ${
+          <ul className={`absolute top-full left-0 mt-1 w-56 bg-white border rounded-lg shadow-md transition-all duration-200 z-50 max-h-[180px] overflow-y-auto ${
             showCategoryMenu ? "opacity-100 visible" : "opacity-0 invisible"
           }`}>
             {categories.map((category) => (
