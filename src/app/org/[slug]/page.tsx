@@ -35,9 +35,9 @@ export default async function OrgPage({
             className="rounded-full object-cover shadow-lg/30 w-28 h-28 md:w-[180px] md:h-[180px] shrink-0"
           />
           <h1 className={`font-semibold leading-tight md:text-5xl ${
-            club.name.length > 25
+            club.name.length > 20
               ? "text-2xl sm:text-3xl"
-              : club.name.length > 15
+              : club.name.length > 10
               ? "text-3xl sm:text-4xl"
               : "text-4xl sm:text-5xl"
           }`}>
