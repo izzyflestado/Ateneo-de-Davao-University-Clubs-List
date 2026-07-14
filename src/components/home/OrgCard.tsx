@@ -18,7 +18,7 @@ export default function OrgCard({ club }: { club: Club }) {
         height={200}
         className="rounded-full object-cover mb-4"
       />
-      <h3 className={`${inter.className} font-semibold text-base`}>{club.name}</h3>
+      <h3 className={`${inter.className} font-semibold text-sm sm:text-base leading-tight line-clamp-2`}>{club.name}</h3>
     </Link>
   );
 }
