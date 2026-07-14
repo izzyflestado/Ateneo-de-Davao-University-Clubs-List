@@ -19,10 +19,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-3 items-center gap-2 md:gap-6 px-3 md:px-6 py-3 md:py-8 text-[10px] md:text-sm text-gray-600">
         {/* Left */}
         <div className="flex flex-col items-center md:items-start gap-2">
-            <p>Made by Romar Izzy P. Flestado</p>
-            <div className="flex gap-3">
+            <p>Made by: Romar Izzy P. Flestado</p>
+            <div className="flex gap-3 [&_svg]:w-4 [&_svg]:h-4">
             <a href="mailto:izzyflestado.ph@gmail.com">
-                <Mail size={18} />
+                <Mail size={16} />
             </a>
             <a href="https://www.facebook.com/megam1nd69420" target="_blank" rel="noopener noreferrer">
                 <FacebookIcon />
