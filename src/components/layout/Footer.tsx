@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <footer className="w-full border-t bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-6 px-6 py-8 text-sm text-gray-600">
+      <div className="max-w-7xl mx-auto grid grid-cols-3 items-center gap-2 md:gap-6 px-3 md:px-6 py-3 md:py-8 text-[10px] md:text-sm text-gray-600">
         {/* Left */}
         <div className="flex flex-col items-center md:items-start gap-2">
             <p>Made by Romar Izzy P. Flestado</p>
@@ -49,9 +49,9 @@ export default function Footer() {
         </button>
 
         {/* Right */}
-        <p className="text-right md:text-right text-xs text-gray-400 justify-self-center md:justify-self-end max-w-xs">
-            This is an unofficial, student-developed website <br/>created for informational and portfolio purposes. <br/>
-            It is not affiliated with, endorsed by, or officially <br/> maintained by Ateneo de Davao University.
+        <p className="text-center md:text-right text-[8px] md:text-xs text-gray-400 justify-self-center md:justify-self-end max-w-[160px] md:max-w-xs">
+            This is an unofficial, student-developed website<br className="hidden md:inline"/> created for informational and portfolio purposes.
+            It is not affiliated with, endorsed by, or officially<br className="hidden md:inline"/> maintained by Ateneo de Davao University.
         </p>
         </div>
     </footer>
