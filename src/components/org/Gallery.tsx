@@ -9,7 +9,7 @@ export default function Gallery({ images, name }: { images: string[]; name: stri
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 pt-16 gap-4 w-full mb-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 -mt-4 md:mt-0 pt-0 md:pt-16 gap-4 w-full mb-24">
         {images.map((img, i) => (
           <div
             key={i}

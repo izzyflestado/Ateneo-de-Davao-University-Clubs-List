@@ -25,16 +25,22 @@ export default async function OrgPage({
   return (
     <div className="max-w-7xl mx-auto px-6 pt-14 pb-10">
       {/* Top section */}
-      <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-10">
+      <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-6 mb-10 md:mb-10">
         <div className="flex items-center gap-5 md:gap-8 min-w-0 flex-1">
           <Image
             src={club.logo}
             alt={club.name}
             width={180}
             height={180}
-            className="rounded-full object-cover shadow-lg/30 w-20 h-20 md:w-[180px] md:h-[180px] shrink-0"
+            className="rounded-full object-cover shadow-lg/30 w-28 h-28 md:w-[180px] md:h-[180px] shrink-0"
           />
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-semibold leading-tight">
+          <h1 className={`font-semibold leading-tight md:text-5xl ${
+            club.name.length > 25
+              ? "text-2xl sm:text-3xl"
+              : club.name.length > 15
+              ? "text-3xl sm:text-4xl"
+              : "text-4xl sm:text-5xl"
+          }`}>
             {club.name}
           </h1>
         </div>
@@ -87,7 +93,7 @@ export default async function OrgPage({
       </div>
 
       {/* Description */}
-      <p className="text-gray-700 mb-8 mt-10 md:mt-24 leading-relaxed text-sm md:text-xl text-center px-4 md:px-60">{club.description}</p>
+      <p className="text-gray-700 mb-10 mt-0 md:mt-24 leading-relaxed text-sm md:text-xl text-center px-4 md:px-60">{club.description}</p>
 
  
 
