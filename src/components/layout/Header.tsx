@@ -75,8 +75,8 @@ export default function Header() {
     setMobileSearchOpen(false);
   }
 };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
   const filtered = typedClubs
@@ -93,14 +93,25 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 gap-6 relative">
-        <Link href="/" className="flex items-center gap-3 min-w-0">
+        <Link
+  href="/"
+  onClick={(e) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }}
+  className="flex items-center gap-3 min-w-0"
+>
   <Image
-    src="/images/1white.png"
-    alt="Ateneo Logo"
-    width={compact ? 36 : 72}
-    height={compact ? 36 : 72}
-    className="transition-all duration-500"
-  />
+  src="/images/1white.png"
+  alt="Ateneo Logo"
+  width={72}
+  height={72}
+  className={`transition-all duration-500 ${
+    compact ? "w-7 h-7 sm:w-9 sm:h-9" : "w-14 h-14 sm:w-[72px] sm:h-[72px]"
+  }`}
+/>
   <span
         className={`${cinzel.className} text-white transition-all duration-500 whitespace-nowrap ${
       compact ? "text-[10px] sm:text-base md:text-lg" : "text-base sm:text-2xl md:text-4xl"
