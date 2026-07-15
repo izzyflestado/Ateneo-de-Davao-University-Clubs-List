@@ -67,7 +67,7 @@
   },
   {
     "slug": "yes",
-    "name": "Young Entrepreneurs Society",
+    "name": "Young Entrepreneurs Society (YES)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/yes/yes.png",
     "description": "The official academic organization for the university's Entrepreneurship Department. It serves as a platform to develop student entrepreneurs.",
@@ -89,7 +89,7 @@
   },
   {
     "slug": "afcc",
-    "name": "Ateneo Filipino-Chinese Community",
+    "name": "Ateneo Filipino-Chinese Community (AFCC)",
     "category": "Culture and Arts",
     "logo": "/orgs/culture-and-arts/afcc/afcc.png",
     "description": "AFCC is an organization composed of both Filipino and Chinese Ateneans enrolled in the ADDU.It serves as a space for students to foster cultural appreciation, dialogue, and community among individuals of various backgrounds.",
@@ -111,7 +111,7 @@
   },
   {
     "slug": "ajkc",
-    "name": "Ateneo Japanese and Kendo Community",
+    "name": "Ateneo Japanese and Kendo Community (AJKC)",
     "category": "Culture and Arts",
     "logo": "/orgs/culture-and-arts/ajkc/ajkc.png",
     "description": "Experience Japan with us! The Ateneo Japanese and Kendo Community (AJKC) promotes appreciation of Japanese culture through educational, cultural, and social activities..",
@@ -133,7 +133,7 @@
   },
   {
     "slug": "1sa",
-    "name": "Interdisciplinary Studies Association",
+    "name": "Interdisciplinary Studies Association (1SA)",
     "category": "Culture and Arts",
     "logo": "/orgs/culture-and-arts/isa/isa.png",
     "description": "Unity and Excellence in Diversity Interdisciplinary Minds, Fathomless Possibilities! ISA is the home organization for students interested in global affairs, diplomacy, international relations, and cross-cultural understanding.",
@@ -177,7 +177,7 @@
   },
   {
     "slug": "sinikom",
-    "name": "Samahan ng mga Mag-aaral ng Sining at Komunikasyon",
+    "name": "Samahan ng mga Mag-aaral ng Sining at Komunikasyon (SINIKOM)",
     "category": "Culture and Arts",
     "logo": "/orgs/culture-and-arts/sinikom/sinikom.png",
     "description": "SINIKOM is an organization tailored for Communication Majors in Ateneo de Davao University.",
@@ -221,7 +221,7 @@
   },
   {
     "slug": "acil",
-    "name": "Ateneo Catechetical Instructions League",
+    "name": "Ateneo Catechetical Instructions League (ACIL)",
     "category": "Faith Formation",
     "logo": "/orgs/faith-formation/acil/acil.png",
     "description": "The longest-running religious student organization of the Ateneo since 1905. The Ateneo Catechetical Instruction League is a faith-based organization dedicated to forming student catechists and servant leaders.",
@@ -243,7 +243,7 @@
   },
   {
     "slug": "clm",
-    "name": "Campus Liturgical Ministries",
+    "name": "Campus Liturgical Ministries (CLM)",
     "category": "Faith Formation",
     "logo": "/orgs/faith-formation/clm/clm.png",
     "description": "The Campus Liturgical Ministries (CLM) is one of the religious club under the Ateneo Religious Organizations (ARO).The Campus Liturgical Ministry is a faith-based organization dedicated to serving the university through liturgical and worship ministries.",
@@ -265,7 +265,7 @@
   },
   {
     "slug": "cya",
-    "name": "Christ's Youth in Action",
+    "name": "Christ's Youth in Action (CYA)",
     "category": "Faith Formation",
     "logo": "/orgs/faith-formation/cya/cya.png",
     "description": "We are the Ateneo de Davao unit of Christ’s Youth in Action (CYA)— a movement of young people from across Asia that evangelize & train future leaders for the Church and society.",
@@ -309,7 +309,7 @@
   },
   {
     "slug": "agrees",
-    "name": "Ateneo Green-Agripreneurs for Renewable and Eco-friendly Enterprises Society",
+    "name": "Ateneo Green-Agripreneurs for Renewable and Eco-friendly Enterprises Society (AGREES)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/agrees/agrees.png",
     "description": "AGREES is a student organization that promotes sustainable agriculture, renewable energy, and environmentally responsible innovation.",
@@ -331,7 +331,7 @@
   },
   {
     "slug": "amc",
-    "name": "Ateneo Marketing Club",
+    "name": "Ateneo Marketing Club (AMC)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/amc/amc.png",
     "description": "AMARC is the official organization for Marketing students at Ateneo de Davao University. It helps members develop their marketing, creativity, and leadership skills through seminars, competitions, and industry-related projects.",
@@ -353,7 +353,7 @@
   },
   {
     "slug": "asms",
-    "name": "Ateneo Society of Management Students",
+    "name": "Ateneo Society of Management Students (ASMS)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/asms/asms.png",
     "description": "ASMS is the official organization for Management students at Ateneo de Davao University. It helps members strengthen their leadership, management, and professional skills through seminars, activities, and collaborative projects.",
@@ -375,7 +375,7 @@
   },
   {
     "slug": "jfinex",
-    "name": "Junior Finance Executives",
+    "name": "Junior Finance Executives (JFINEX)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/jfinex/jfinex.png",
     "description": "The Junior Finance Executives is the official student organization of the Ateneo de Davao University Bachelor of Science in Finance Program.",
@@ -397,7 +397,7 @@
   },
   {
     "slug": "jpmap",
-    "name": "Junior People Management Association of the Philippines",
+    "name": "Junior People Management Association of the Philippines (JPMAP)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/jpmap/jpmap.png",
     "description": "JPMA is the official organization for Human Resource Management students at Ateneo de Davao University. JPMA brings together students interested in human resource management and organizational development.",
@@ -419,7 +419,7 @@
   },
   {
     "slug": "jpama",
-    "name": "Junior Philippine Association of Management Accountants",
+    "name": "Junior Philippine Association of Management Accountants (JPAMA)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/jpama/jpama.png",
     "description": "JPAMA is the official organization for Management Accounting students at Ateneo de Davao University. It provides opportunities to explore the field through case competitions, academic events, industry talks, and professional networking.",
@@ -441,7 +441,7 @@
   },
   {
     "slug": "jpia",
-    "name": "Junior Philippine Institute of Accountants - AdDU Local Chapter",
+    "name": "Junior Philippine Institute of Accountants - AdDU Local Chapter (JPIA)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/jpia/jpia.png",
     "description": "JPIA is the official organization for Accountancy students at Ateneo de Davao University. It organizes academic competitions, seminars, networking events, and activities that enrich students' understanding of the accounting profession.",
@@ -463,7 +463,7 @@
   },
   {
     "slug": "jpspm",
-    "name": "Junior Philippine Society for Public Management - AdDU Chapter",
+    "name": "Junior Philippine Society for Public Management - AdDU Chapter (JPSPM)",
     "category": "Business and Governance",
     "logo": "/orgs/business-and-governance/jpspm/jpspm.png",
     "description": "JPSPM is the official organization for Public Management students at Ateneo de Davao University. It explores topics in public service, governance, and policymaking through seminars, forums, community initiatives, and academic activities.",
@@ -485,7 +485,7 @@
   },
   {
     "slug": "asiem",
-    "name": "Ateneo Society of Industrial Engineering Majors",
+    "name": "Ateneo Society of Industrial Engineering Majors (ASIEM)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/asiem/asiem.png",
     "description": "The Ateneo Society of Industrial Engineering Majors (ASIEM) is the Academic oganization of all Industrial Engineering students.It organizes academic events, competitions, industry talks, and collaborative activities that highlight the principles and applications of industrial engineering.",
@@ -507,7 +507,7 @@
   },
   {
     "slug": "uapsa",
-    "name": "United Architects of the Philippines Student Auxiliary - Doric",
+    "name": "United Architects of the Philippines Student Auxiliary - UAPSA Doric",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/uapsa/uapsa.png",
     "description": "UAPSA DORIC is the official organization for Architecture students at Ateneo de Davao University. It organizes design competitions, workshops, exhibits, and industry events that showcase creativity and the practice of architecture.",
@@ -529,7 +529,7 @@
   },
   {
     "slug": "fusee",
-    "name": "Federation of United Students of Electrical Engineering",
+    "name": "Federation of United Students of Electrical Engineering (FUSEE)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/fusee/fusee.png",
     "description": "FUSEE is the official organization for Electrical Engineering students at Ateneo de Davao University. It brings students together through technical seminars, engineering competitions, academic activities, and outreach programs related to the field.",
@@ -551,7 +551,7 @@
   },
   {
     "slug": "gears",
-    "name": "Global Engineering Ateneo Robotics Society",
+    "name": "Global Engineering Ateneo Robotics Society (GEARS)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/gears/gears-logo.png",
     "description": "Global Engineering – Ateneo Robotics Society (GEARS), the official academic organization and main page representing the AdDU-SEA Robotics Engineering Department.",
@@ -573,7 +573,7 @@
   },
   {
     "slug": "jpiche",
-    "name": "Junior Philippine Institute of Chemical Engineers",
+    "name": "Junior Philippine Institute of Chemical Engineers (JPICHE)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/jpiche/jpiche.png",
     "description": "Junior Philippine Institute of Chemical Engineers is the academic Club of the Chemical Engineering Department of the Ateneo de Davao University",
@@ -595,7 +595,7 @@
   },
   {
     "slug": "jpice",
-    "name": "Junior Philippine Institute of Civil Engineers",
+    "name": "Junior Philippine Institute of Civil Engineers (JPICE)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/jpice/jpice.png",
     "description": "JPICE is the official organization for Civil Engineering students at Ateneo de Davao University. It hosts seminars, competitions, site visits, and activities that introduce members to the civil engineering profession.",
@@ -617,7 +617,7 @@
   },
   {
     "slug": "lippad",
-    "name": "Liga ng mga Inhinyerong Panghimpapawid at Pangkalawakan ng Ateneo de Davao",
+    "name": "Liga ng mga Inhinyerong Panghimpapawid at Pangkalawakan ng Ateneo de Davao (LIPPAD)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/lippad/lippad.png",
     "description": "The official academic organization of the Aerospace Engineering Department. It organizes talks, workshops, and academic activities that explore aviation, space technology, and aerospace engineering.",
@@ -639,7 +639,7 @@
   },
   {
     "slug": "makina",
-    "name": "Mekanikal na Asosasyon ng Kabataang Inhinyerong Atenista",
+    "name": "Mekanikal na Asosasyon ng Kabataang Inhinyerong Atenista (MAKINA)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/makina/makina.png",
     "description": "MAKINA is the official organization for Mechanical Engineering students at Ateneo de Davao University. It organizes technical talks, competitions, workshops, and activities that showcase the applications of mechanical engineering.",
@@ -661,7 +661,7 @@
   },
   {
     "slug": "processor",
-    "name": "Prominent Computer Engineering Students' Organization",
+    "name": "Prominent Computer Engineering Students' Organization (PROCESSOR)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/processor/processor.png",
     "description": "PROCESSOR is the official organization for Computer Engineering students at Ateneo de Davao University. It organizes technical workshops, competitions, and projects that give members opportunities to apply and expand their engineering knowledge.",
@@ -683,7 +683,7 @@
   },
   {
     "slug": "selecomes",
-    "name": "Society of Electronics Engineering Students",
+    "name": "Society of Electronics Engineering Students (SELECOMES)",
     "category": "Engineering and Architecture",
     "logo": "/orgs/engr-and-archi/selecomes/selecomes.png",
     "description": "SELECOMES is the official organization for Electronics Engineering students at Ateneo de Davao University. It organizes technical seminars, competitions, and hands-on activities that expose members to the latest developments in electronics and communication technologies.",
@@ -705,7 +705,7 @@
   },
   {
     "slug": "addacs",
-    "name": "Ateneo de Davao Association of Chemistry Students",
+    "name": "Ateneo de Davao Association of Chemistry Students (ADDACS)",
     "category": "Science and Technology",
     "logo": "/orgs/sci-and-tech/addacs/addacs.png",
     "description": "The Ateneo de Davao Association of Chemistry Students is the official organization for Chemistry students at Ateneo de Davao University. It organizes academic activities, laboratory-related events, and outreach programs that promote the study and application of chemistry.",
@@ -727,7 +727,7 @@
   },
   {
     "slug": "addams",
-    "name": "Ateneo de Davao Mathematics Society",
+    "name": "Ateneo de Davao Mathematics Society (ADDAMS)",
     "category": "Science and Technology",
     "logo": "/orgs/sci-and-tech/addams/addams.png",
     "description": "ADDAMS is the official organization for Mathematics students at Ateneo de Davao University. It organizes problem-solving competitions, seminars, and academic activities that promote mathematics and analytical thinking.",
@@ -749,7 +749,7 @@
   },
   {
     "slug": "envico",
-    "name": "Environmental Science Community",
+    "name": "Environmental Science Community (ENVICO)",
     "category": "Science and Technology",
     "logo": "/orgs/sci-and-tech/envico/envico.png",
     "description": "The ADDU Environmental Science Community (EnviCo) is the academic organization of the BS Environmental Science program in Ateneo de Davao University. It organizes environmental campaigns, field activities, and community initiatives that promote sustainability and environmental awareness.",
@@ -771,7 +771,7 @@
   },
   {
     "slug": "pnsa",
-    "name": "Philippine Nursing Students' Association",
+    "name": "Philippine Nursing Students' Association (PNSA)",
     "category": "Science and Technology",
     "logo": "/orgs/sci-and-tech/pnsa/pnsa.png",
     "description": "The Sole Academic Organization of Ateneo de Davao University - School of Nursing. It organizes academic, service, and student activities that support the nursing community and promote excellence in healthcare.",
@@ -793,7 +793,7 @@
   },
   {
     "slug": "tabs",
-    "name": "The Ateneo Biological Society",
+    "name": "The Ateneo Biological Society (TABS)",
     "category": "Science and Technology",
     "logo": "/orgs/sci-and-tech/tabs/tabs.png",
     "description": "The Ateneo Biological Society is the official organization for Biology students at Ateneo de Davao University. It organizes academic events, outreach programs, and environmental activities that promote the study and appreciation of the biological sciences.",
@@ -815,7 +815,7 @@
   },
   {
     "slug": "aisso",
-    "name": "Ateneo International Studies Students Organization",
+    "name": "Ateneo International Studies Students Organization (AISSO)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/aisso/aisso.png",
     "description": "AISSO brings together international students at Ateneo de Davao University and promotes cultural exchange within the campus community.",
@@ -837,7 +837,7 @@
   },
   {
     "slug": "aissa",
-    "name": "Ateneo Islamic Studies Students Association",
+    "name": "Ateneo Islamic Studies Students Association (AISSA)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/aissa/aissa.png",
     "description": "AISSA is the official organization for Islamic Studies students at Ateneo de Davao University. It promotes a deeper understanding of Islamic teachings, culture, and values through educational, cultural, and community-centered activities.",
@@ -859,7 +859,7 @@
   },
   {
     "slug": "ecosoc",
-    "name": "Ateneo Economics Society",
+    "name": "Ateneo Economics Society (ECOSOC)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/ecosoc/ecosoc.png",
     "description": "The Ateneo Economics Society is the official organization for Economics students at Ateneo de Davao University. It organizes discussions, seminars, and academic activities that explore economic issues, public policy, and current trends.",
@@ -881,7 +881,7 @@
   },
   {
     "slug": "feat",
-    "name": "Future Educators of Ateneo",
+    "name": "Future Educators of Ateneo (FEAT)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/feat/feat.png",
     "description": "The Future Educators of Ateneo (FEAT) is the official academic club of Ateneo de Davao University's School of Education.",
@@ -903,7 +903,7 @@
   },
   {
     "slug": "jswap",
-    "name": "Junior Social Worker's Association of the Philippines",
+    "name": "Junior Social Worker's Association of the Philippines (JSWAP)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/jswap/jswap.png",
     "description": "JSWAP is the official organization for Social Work students at Ateneo de Davao University. It organizes community outreach, advocacy initiatives, and academic activities that promote social justice, service, and professional social work practice",
@@ -925,7 +925,7 @@
   },
   {
     "slug": "masa",
-    "name": "Mindanawon Anthropological Society of the Ateneo",
+    "name": "Mindanawon Anthropological Society of the Ateneo (MASA)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/masa/masa.png",
     "description": "MASA is the official organization for Anthropology students at Ateneo de Davao University. It promotes a deeper understanding of Mindanao’s diverse cultures through discussions, field activities, research, and community engagement.",
@@ -947,7 +947,7 @@
   },
   {
     "slug": "samasikofil",
-    "name": "Samahang Mag-aaral ng Sikolohiyang Filipino",
+    "name": "Samahang Mag-aaral ng Sikolohiyang Filipino (SAMASIKOFIL)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/samasikofil/samasikofil.png",
     "description": "The Official Academic Organization of Ateneo de Davao University - Department of Psychology. It organizes academic events, mental health initiatives, and community activities that promote psychology and psychological well-being.",
@@ -969,7 +969,7 @@
   },
   {
     "slug": "samapula",
-    "name": "Samahan ng mga Mag-aaral ng Agham Pampulitika ng Ateneo",
+    "name": "Samahan ng mga Mag-aaral ng Agham Pampulitika ng Ateneo (SAMAPULA)",
     "category": "Social Sciences and Education",
     "logo": "/orgs/socsci-and-edu/samapula/samapula.png",
     "description": "SAMAPULAA is the official organization for Political Science students at Ateneo de Davao University. It organizes forums, discussions, and academic activities that encourage critical engagement with politics, governance, and contemporary social issues.",
@@ -1233,7 +1233,7 @@
   },
   {
     "slug": "csass",
-    "name": "Council of Organizations of the Ateneo - Davao",
+    "name": "Council of Organizations of the Ateneo - Davao (COA-D)",
     "category": "Student Government",
     "logo": "/orgs/student-gov/council/council.png",
     "description": "The Council of Organizations of the Ateneo - Davao is the umbrella council of all recognized clubs and organizations of the Ateneo de Davao University. It brings together and supports accredited organizations within the university.",
@@ -1317,6 +1317,116 @@
       "/orgs/official-pubs/atenews/atenews2.png",
       "/orgs/official-pubs/atenews/atenews3.png",
       "/orgs/official-pubs/atenews/atenews4.png"
+    ]
+  },
+  {
+    "slug": "also",
+    "name": "Ateneo Lumad Students Organization (ALSO)",
+    "category": "Culture and Arts",
+    "logo": "/orgs/culture-and-arts/also/also.png",
+    "description": "Ang nag inusarang hulagway sa paglambo ug pagpadayon sa kultura sa mga Lumad sa Ateneo.",
+    "moderator": {
+      "name": "",
+      "image": ""
+    },
+    "contact": {
+      "email": "also@addu.edu.ph",
+      "facebook": "https://web.facebook.com/AdDUALSO",
+      "instagram": ""
+    },
+    "gallery": [
+      "/orgs/culture-and-arts/also/also1.png",
+      "/orgs/culture-and-arts/also/also2.png",
+      "/orgs/culture-and-arts/also/also3.png",
+      "/orgs/culture-and-arts/also/also4.png"
+    ]
+  },
+  {
+    "slug": "afc",
+    "name": "Ateneo Film Circle (AFC)",
+    "category": "Culture and Arts",
+    "logo": "/orgs/culture-and-arts/afc/afc.png",
+    "description": "Ateneo Film Circle (AFC) is the premier student film organization based at the Ateneo de Davao University.",
+    "moderator": {
+      "name": "",
+      "image": ""
+    },
+    "contact": {
+      "email": "afc@addu.edu.ph",
+      "facebook": "https://web.facebook.com/addu.afc",
+      "instagram": ""
+    },
+    "gallery": [
+      "/orgs/culture-and-arts/afc/afc1.png",
+      "/orgs/culture-and-arts/afc/afc2.png",
+      "/orgs/culture-and-arts/afc/afc4.png",
+      "/orgs/culture-and-arts/afc/afc3.png"
+    ]
+  },
+  {
+    "slug": "aps",
+    "name": "Ateneo Photographers' Society (APS)",
+    "category": "Culture and Arts",
+    "logo": "/orgs/culture-and-arts/aps/aps.png",
+    "description": "APS is the official photography organization of Ateneo de Davao University, bringing together students with a passion for photography and visual storytelling.",
+    "moderator": {
+      "name": "",
+      "image": ""
+    },
+    "contact": {
+      "email": "aps@addu.edu.ph",
+      "facebook": "https://web.facebook.com/aps.addu",
+      "instagram": ""
+    },
+    "gallery": [
+      "/orgs/culture-and-arts/aps/aps1.png",
+      "/orgs/culture-and-arts/aps/aps2.png",
+      "/orgs/culture-and-arts/aps/aps3.png",
+      "/orgs/culture-and-arts/aps/aps4.png"
+    ]
+  },
+  {
+    "slug": "artco",
+    "name": "Ateneo Art Company (ArtCo)",
+    "category": "Culture and Arts",
+    "logo": "/orgs/culture-and-arts/artco/artco.png",
+    "description": "ArtCo is a visual arts organization of Ateneo de Davao University, providing a space for students to explore and showcase their creativity.",
+    "moderator": {
+      "name": "",
+      "image": ""
+    },
+    "contact": {
+      "email": "artco.addu@gmail.com",
+      "facebook": "https://web.facebook.com/AteneoArtCo",
+      "instagram": "https://www.instagram.com/artco_addu"
+    },
+    "gallery": [
+      "/orgs/culture-and-arts/artco/artco1.png",
+      "/orgs/culture-and-arts/artco/artco2.png",
+      "/orgs/culture-and-arts/artco/artco3.png",
+      "/orgs/culture-and-arts/artco/artco4.png"
+    ]
+  },
+  {
+    "slug": "kapps",
+    "name": "Kapisanan ng Pag-aaral Pangkaunlaran at Sosyolohiya (KAPPS)",
+    "category": "Social Sciences and Education",
+    "logo": "/orgs/socsci-and-edu/kapps/kapps.png",
+    "description": "Isang organisasyong naghahangad patungo sa mas maliwanag na kinabukasan—para sa Mindanao at higit pa!",
+    "moderator": {
+      "name": "",
+      "image": ""
+    },
+    "contact": {
+      "email": "kapps.addu@gmail.com",
+      "facebook": "https://web.facebook.com/addu.kapps",
+      "instagram": "https://www.instagram.com/addu.kapps"
+    },
+    "gallery": [
+      "/orgs/socsci-and-edu/kapps/kapps1.png",
+      "/orgs/socsci-and-edu/kapps/kapps2.png",
+      "/orgs/socsci-and-edu/kapps/kapps3.png",
+      "/orgs/socsci-and-edu/kapps/kapps4.png"
     ]
   }
 ]
