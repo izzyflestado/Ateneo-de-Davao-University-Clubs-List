@@ -31,6 +31,16 @@ export default function OrgCard({ club }: { club: Club }) {
         ref={imgRef}
         onMouseMove={handleMouseMove}
         onMouseLeave={resetTilt}
+        onTouchStart={(e) => e.stopPropagation()}
+        onTouchMove={(e) => {
+          const touch = e.touches[0];
+          const rect = imgRef.current?.getBoundingClientRect();
+          if (!rect || !touch) return;
+          const x = ((touch.clientX - rect.left) / rect.width - 0.5) * 2;
+          const y = ((touch.clientY - rect.top) / rect.height - 0.5) * 2;
+          setTilt({ x, y });
+        }}
+        onTouchEnd={resetTilt}
         style={{
           transform: `perspective(400px) rotateX(${-tilt.y * 12}deg) rotateY(${tilt.x * 12}deg) translate(${tilt.x * 8}px, ${tilt.y * 8}px)`,
           transition: "transform 0.15s ease-out",
