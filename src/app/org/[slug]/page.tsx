@@ -25,16 +25,16 @@ export default async function OrgPage({
   return (
     <div className="max-w-7xl mx-auto px-6 pt-14 pb-10">
       {/* Top section */}
-      <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-6 mb-10 md:mb-10">
-        <div className="flex items-center gap-5 md:gap-8 min-w-0 flex-1">
+      <div className="flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-6 mb-10 lg:mb-10">
+        <div className="flex items-center gap-5 lg:gap-8 min-w-0 flex-1">
           <Image
             src={club.logo}
             alt={club.name}
             width={180}
             height={180}
-            className="rounded-full object-cover shadow-lg/30 w-28 h-28 md:w-[180px] md:h-[180px] shrink-0"
+            className="rounded-full object-cover shadow-lg/30 w-28 h-28 lg:w-[180px] lg:h-[180px] shrink-0"
           />
-          <h1 className={`font-semibold leading-tight md:text-5xl ${
+          <h1 className={`font-semibold leading-tight break-words lg:text-5xl ${
             club.name.length > 20
               ? "text-2xl sm:text-3xl"
               : club.name.length > 10
@@ -46,13 +46,13 @@ export default async function OrgPage({
         </div>
 
         <div
-  className={`${inter.className} w-full max-w-[240px] mx-auto md:max-w-none md:mx-0 md:basis-96 md:flex-none rounded-2xl border border-gray-200 bg-white p-3 md:p-6`}
+  className={`${inter.className} w-full max-w-[240px] mx-auto lg:max-w-none lg:mx-0 lg:basis-96 lg:flex-none rounded-2xl border border-gray-200 bg-white p-3 lg:p-6`}
 >
-  <p className="text-sm md:text-lg font-semibold text-center mb-2 md:mb-4">Contact Information</p>
-          <p className="flex items-center justify-center md:justify-start gap-1.5 text-xs md:text-sm mb-2 md:mb-4">
-            <Mail size={14} className="md:w-4 md:h-4" /> {club.contact.email}
+  <p className="text-sm lg:text-lg font-semibold text-center mb-2 lg:mb-4">Contact Information</p>
+          <p className="flex items-center justify-center lg:justify-start gap-1.5 text-xs lg:text-sm mb-2 lg:mb-4">
+            <Mail size={14} className="lg:w-4 lg:h-4" /> {club.contact.email}
           </p>
-          <div className="flex flex-col items-center md:items-start gap-1.5 text-xs md:text-sm">
+          <div className="flex flex-col items-center lg:items-start gap-1.5 text-xs lg:text-sm">
   {club.contact.facebook && (
     <a
       href={club.contact.facebook}
@@ -93,7 +93,7 @@ export default async function OrgPage({
       </div>
 
       {/* Description */}
-      <p className="text-gray-700 mb-10 mt-0 md:mt-24 leading-relaxed text-sm md:text-xl text-center px-4 md:px-60">{club.description}</p>
+      <p className="text-gray-700 mb-10 mt-0 lg:mt-24 leading-relaxed text-sm lg:text-xl text-center px-4 md:px-24 lg:px-60">{club.description}</p>
 
  
 
