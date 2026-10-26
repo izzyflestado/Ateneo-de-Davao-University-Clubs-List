@@ -36,6 +36,14 @@ export default function Footer() {
             <a href="https://github.com/izzyflestado" target="_blank" rel="noopener noreferrer">
                 <GithubIcon />
             </a>
+            <a
+  href="https://izzyfles.site"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:underline"
+>
+  izzyfles.site
+</a>
             </div>
         </div>
 
