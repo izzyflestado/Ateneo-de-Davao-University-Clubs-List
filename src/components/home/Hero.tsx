@@ -32,8 +32,8 @@ export default function Hero() {
       {/* Subtext - positioned independently, 200px below center */}
       <div className="absolute left-1/2 top-[calc(50%+150px)] md:top-[calc(50%+275px)] -translate-x-1/2 w-full px-6">
         <p className={`${inter.className} text-white/90 text-sm md:text-base text-center max-w-2xl mx-auto leading-relaxed`}>
-          This is an unofficial website containing all the basic information of all
-          of Ateneo de Davao's Clubs and Organizations. This website is designed for
+          This is an unofficial website containing all the basic information (some may be outdated)
+          of all of Ateneo de Davao's Clubs and Organizations. This website is designed for
           students to help navigate and find all existing clubs inside Ateneo de Davao University. 
           All university, club, and organization names and logos remain the property of their respective owners.
         </p>
