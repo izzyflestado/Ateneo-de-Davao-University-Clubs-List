@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Club } from "@/types/clubs";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { useRef, useState } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ["latin"], fallback: ["Arial", "sans-serif"] });
 
 export default function OrgCard({ club }: { club: Club }) {
   const [tilt, setTilt] = useState({ x: 0, y: 0 });

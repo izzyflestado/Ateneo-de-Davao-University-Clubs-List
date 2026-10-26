@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
+import { Open_Sans } from "next/font/google";
+const inter = Open_Sans({ subsets: ["latin"], fallback: ["Arial", "sans-serif"] });
 
 export default function Hero() {
   return (

@@ -1,11 +1,11 @@
 "use client";
 
 import { ChevronDown } from "lucide-react";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import { SortMode } from "@/types/sort";
 import { useState } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ["latin"], fallback: ["Arial", "sans-serif"] });
 
 export default function SortBar({
   sortMode,

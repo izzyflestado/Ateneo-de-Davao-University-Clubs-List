@@ -4,13 +4,13 @@ import clubs from "@/data/clubs.json";
 import { Club } from "@/types/clubs";
 import { Mail } from "lucide-react";
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
-import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import Gallery from "@/components/org/Gallery";
 import ModeratorImage from "@/components/org/ModeratorImage";
 
 const typedClubs = clubs as Club[];
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Open_Sans({ subsets: ["latin"], fallback: ["Arial", "sans-serif"] });
 
 export default async function OrgPage({
   params,

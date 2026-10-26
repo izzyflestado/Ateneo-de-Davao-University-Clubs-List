@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { Cinzel, Inter } from "next/font/google";
+import { Cinzel, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -10,7 +10,7 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const inter = Inter({
+const inter = Open_Sans({
   subsets: ["latin"],
   variable: "--font-inter",
 });
